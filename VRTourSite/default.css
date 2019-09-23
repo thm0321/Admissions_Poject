@@ -1,0 +1,68 @@
+/* General Alpha Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+
+body, html { font-size: 100%; 	padding: 0; margin: 0;}
+
+
+body {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    color: #171618;
+}
+
+/* Nav Bar */
+a {
+	color: #f0f0f0;
+    text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+}
+
+
+/* Selection Boxes */
+.selectionBoxes{
+    text-align: center;
+    width: 93%;
+    border: 15px solid#1948B4;
+    padding: 3%;
+    margin: 1.5px;
+    display: table;
+  }
+
+.dormRoom{
+    width: 30%;
+    height: 300px;
+    background-image: url("https://i.imgur.com/4igR2mC.gif");
+    border: 5px solid #1948B4;
+    float:left;  
+    margin: 1%;
+    
+}
+.library{
+    width: 30%;
+    height: 300px;
+    background-image: url("https://i.imgur.com/AXd6TfX.gif");
+    border: 5px solid #1948B4;
+    float:left;
+    margin: 1%;
+    
+}
+.innovationLab{
+    width: 30%;
+    height: 300px;
+    background-image: url("https://i.imgur.com/yNen4e9.gif");
+    border: 5px solid #1948B4;
+    float:left;
+    margin: 1%;
+    
+}
+
+  .dormRoom:hover,.innovationLab:hover,.library:hover {
+	border: 7px solid #FE6301;
+}
+
+footer{
+    text-align: end;
+}

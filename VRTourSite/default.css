@@ -60,7 +60,7 @@ a:hover {
 .innovationLab{
     width: 30%;
     height: 300px;
-    background-image: url(images/Hub1.jpeg);
+    background-image: url("https://media2.giphy.com/media/3o7TKNgQqrynD4umD6/giphy.gif");
     background-size: cover;
     background-color: rgba(255, 255, 255, 0.4);
     background-blend-mode: lighten;
@@ -69,13 +69,59 @@ a:hover {
     margin: 1%;  
 }
 
-  .dormRoom:hover,.innovationLab:hover,.library:hover,img:hover {
+  .dormRoom:hover,.innovationLab:hover,.library:hover,.magnum:hover,.guitar:hover,.other:hover {
     border: 7px solid #FE6301;
     color: #f0f0f0;
     background-color: rgba(255, 255, 255, 0);
-    opacity:1;
+    
 }
 
 footer{
     text-align: end;
+}
+
+/* Next Portion of the CSS will be Focused on 3D Models*/ 
+.guitar{
+    margin-left:0px;
+    padding-left:0px;
+    display: inline-block;
+    border: 3px solid #1948B4;
+}
+.guitar img{
+    float:left;
+    width:15%;
+    padding-right: 5px;
+}
+
+.magnum{
+    margin-left:0px;
+    padding-left:0px;
+    display: inline-block;
+    border: 3px solid #1948B4;
+} 
+.magnum img{
+    float:left;
+    width:15%;
+    padding-right: 5px;
+}
+
+.other{
+    margin-left:0px;
+    padding-left:0px;
+    display: inline-block;
+    border: 3px solid #1948B4;
+}
+
+.other img{
+    float:left;
+    width:15%;
+    padding-right: 5px;
+}
+
+/* The Following Portion will Focus on the About the Project Page*/
+.group{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }

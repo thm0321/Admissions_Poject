@@ -1,0 +1,13 @@
+{
+"companyName": "Best 440 Project",
+"productName": "Kartboi",
+"dataUrl": "webGLTEST.data.unityweb",
+"wasmCodeUrl": "webGLTEST.wasm.code.unityweb",
+"wasmFrameworkUrl": "webGLTEST.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
+}

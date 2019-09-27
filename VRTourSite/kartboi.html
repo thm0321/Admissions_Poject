@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Kartboi</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/webGLTEST.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    	<!-- Navigation -->
+	    <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid">
+            <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Virtual Tours</a></li>
+          <li class="2"><a href="3DModels.html">3-D Models</a></li>
+              <li class="3"><a href="AboutUs.html">About the Project</a></li>
+            </ul>
+          </div>
+      </nav>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">Kartboi</div>
+      </div>
+    </div>
+  </body>
+</html>

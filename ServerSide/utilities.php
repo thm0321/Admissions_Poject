@@ -10,7 +10,7 @@
     }
     //This function removes an Admin from the database
     function removeAdmin(){
-        
+
     }
     //Uses the Modules table
     //This function adds a unity to scene (entry) to the database
@@ -33,15 +33,17 @@
     function getAllScenes(){
 
     }
-    //Ueses the History table
+    //Uses the History table
     //This functions adds the packages of modules that were sent to prospective students
     function addHistory(){
 
     }
-    //This function 
-    
+    //This function gets a history entries from the table
+    function getHistory(){
 
+    }
+    //This function removes a history entry from the table
+    function removeHistory(){
 
-
-
+    }
 ?>

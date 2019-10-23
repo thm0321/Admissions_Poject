@@ -22,7 +22,15 @@
 		<br>
 		<h2 style="padding: 3%; text-align:center;"> Avaliable Tours </h2>
 		<h5></h5>
-		<div class="selectionBoxes">
+		<?php include_once('db_connect.php');?>
+
+		<div class="selectionBoxes"> <!-- This Area Loads all Avaliable Tours from the database -->
+	
+			<?php $length = mysql_query("SELECT COUNT(*)
+										FROM Modules;", $conn);
+			for($i=1;$i<=$length;$i++){ ?>
+				<a href="kartboi.html"><div class="dormRoom"> <?php echo $i; ?> </div></a>
+				<?php } ?>
 			<a href="kartboi.html"><div class="dormRoom"> Dorm Room </div></a>
 			<a href="#"><div class="library"> Library </div></a>
 			<a href="#"><div class="innovationLab"> Innovation Lab </div></a>
@@ -30,7 +38,7 @@
 		<!-- Footer -->
 	    <footer>
 	      <div class="mark">
-	       Alpha 1.0
+	       Alpha 2.0
 	      </div>
 	    </footer>
 	</body>
